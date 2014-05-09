@@ -1,17 +1,19 @@
-# Redmine Plugin - Open external links in new window
+## Redmine Plugin - Open external links in new window
 
-## About
+### About
 
 Make external & attachment links open new browser windows.
 (Site-local links are still opened in the same window.)
 
-## Compatibility
+No configuration, no DB dependency.
+
+### Compatibility
 
 Tested with Redmine 2.3.1.
 The base version (which also opened various local links in new window),
 was tested with Redmine 0.9.6, 1.0.5, 2.1.0.
 
-## Installation
+### Installation
 
 Download the sources and put them into your Redmine `plugins` folder.
 
@@ -20,16 +22,16 @@ Download the sources and put them into your Redmine `plugins` folder.
 
 Restart Redmine and have a fun!
 
-## Changelog of base version forked:
+### Changelog of base version forked:
 
-### 0.0.3
+#### 0.0.3
 
 Made compatible with Redmine 2.1.0 and above - thanks to @logical-and.
 
-### 0.0.2
+#### 0.0.2
 
 Links with external class also will be opened in new window - thanks to Florian Berninger.
 
-### 0.0.1
+#### 0.0.1
 
 - First public release
