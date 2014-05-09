@@ -24,19 +24,19 @@ Restart Redmine and have a fun!
 
 ### Changelog:
 
-#### Current version:
+#### This fork:
 
 * Only open external & attachment links in new window.
 
 #### Base (forked) versions:
 #### 0.0.3
 
-Made compatible with Redmine 2.1.0 and above - thanks to @logical-and.
+* Made compatible with Redmine 2.1.0 and above - thanks to @logical-and.
 
 #### 0.0.2
 
-Links with external class also will be opened in new window - thanks to Florian Berninger.
+* Links with external class also will be opened in new window - thanks to Florian Berninger.
 
 #### 0.0.1
 
-First public release.
+* First public release.
