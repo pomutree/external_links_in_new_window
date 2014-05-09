@@ -1,29 +1,26 @@
-# Redmine - Open links in new window
+# Redmine Plugin - Open external links in new window
 
-## Introduction
+## About
 
-Plugin that follow all links of content to be opened in new window
-instead of current one.
-
-Plugin by default controls only wiki and details chapters in opened issues,
-and also external links in tickets.
-
-No configuration available yet.
+Make external & attachment links open new browser windows.
+(Site-local links are still opened in the same window.)
 
 ## Compatibility
 
-Tested with Redmine 0.9.6, 1.0.5, 2.1.0.
+Tested with Redmine 2.3.1.
+The base version (which also opened various local links in new window),
+was tested with Redmine 0.9.6, 1.0.5, 2.1.0.
 
 ## Installation
 
-Download the sources and put them to your vendor/plugins folder.
+Download the sources and put them into your Redmine `plugins` folder.
 
     $ cd {REDMINE_ROOT}
-    $ git clone git://github.com/Undev/redmine_open_links_in_new_window.git vendor/plugins/redmine_open_links_in_new_window
+    $ git clone git://github.com/lunakid/redmine_open_links_in_new_window.git plugins/redmine_open_links_in_new_window
 
 Restart Redmine and have a fun!
 
-## Changelog
+## Changelog of base version forked:
 
 ### 0.0.3
 
@@ -36,4 +33,3 @@ Links with external class also will be opened in new window - thanks to Florian 
 ### 0.0.1
 
 - First public release
-
