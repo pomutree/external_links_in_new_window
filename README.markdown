@@ -22,8 +22,13 @@ Download the sources and put them into your Redmine `plugins` folder.
 
 Restart Redmine and have a fun!
 
-### Changelog of base version forked:
+### Changelog:
 
+#### Current version:
+
+* Only open external & attachment links in new window.
+
+#### Base (forked) versions:
 #### 0.0.3
 
 Made compatible with Redmine 2.1.0 and above - thanks to @logical-and.
@@ -34,4 +39,4 @@ Links with external class also will be opened in new window - thanks to Florian 
 
 #### 0.0.1
 
-- First public release
+First public release.
