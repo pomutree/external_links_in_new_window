@@ -7,7 +7,7 @@ Redmine::Plugin.register :external_links_in_new_window do
   author 'akzhan.abdulin@gmail.com, lunakid@gmail.com'
   description 'Open external & attachment links in new browser windows.'
   version '0.9'
-  url 'https://github.com/lunakid/redmine_external_links_in_new_window'
+  url 'https://github.com/lunakid/external_links_in_new_window'
   author_url 'http://github.com/lunakid'
 end
 
