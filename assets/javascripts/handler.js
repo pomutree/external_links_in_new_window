@@ -28,6 +28,6 @@
         }
         else // Redmine with alien space technology from the future!... :-o
         {
-                console.error('[ExternalLinkInNewWindow] Unknown JS-framework!');
+                console.error('[ExternalLinksInNewWindow] Unknown JS-framework!');
         }
 })();
