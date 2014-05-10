@@ -5,7 +5,7 @@
          */
         var handleAnchor = function()
         {
-                if (-1 != this.className.indexOf('external'))
+                //if (-1 != this.className.indexOf('external'))
                 {
                         this.target = '_blank';
                 }
