@@ -5,3 +5,4 @@ module ExternalLinkInNewWindow
     end
   end
 end
+
