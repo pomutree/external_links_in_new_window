@@ -5,19 +5,18 @@
 Make external & attachment links open in new browser windows.
 Redmine's own links are still opened in the same (application) window.
 
+(The original version, from which this one was forked off, opened new windows for Redmine's own site-local links, too.)
+
 No configuration, no DB dependency.
 
 ### Compatibility
 
-Tested with Redmine 2.3.1. and Redmine 4.0.3
+Tested with Redmine 2.3.1. and Redmine 4.0.3.
 
-The base version (which opened new windows for various Redmine-local links, too),
-was tested with Redmine 0.9.6, 1.0.5, 2.1.0, but this update made too many small
-changes, so regression testing would be needed!
+(The original one was also tested with Redmine 0.9.6, 1.0.5, 2.1.0, but this one changed a few things, so there may be problems on those old versions.)
 
-Note: this vairant is incompatible with the original (base) version -- only one 
-will work, if both are installed. (But they will not crash, as I changed the 
-relevant identifiers to avoid collisions.)
+Note: this one is also incompatible with the original plugin: if both are installed, only one will work. 
+(But they will not crash, as I changed the relevant identifiers to avoid collisions.)
 
 ### Installation
 
@@ -32,9 +31,9 @@ Restart Redmine and have a fun!
 
 #### This fork:
 
-* Only open external & attachment links in new window.
+* Only external & attachment links will open in new windows.
 
-#### Base versions:
+#### Changes in the old, original versions:
 #### 0.0.3
 
 * Made compatible with Redmine 2.1.0 and above - thanks to @logical-and.
