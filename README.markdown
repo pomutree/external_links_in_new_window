@@ -9,7 +9,7 @@ No configuration, no DB dependency.
 
 ### Compatibility
 
-Tested with Redmine 2.3.1.
+Tested with Redmine 2.3.1. and Redmine 4.0.3
 
 The base version (which opened new windows for various Redmine-local links, too),
 was tested with Redmine 0.9.6, 1.0.5, 2.1.0, but this update made too many small
